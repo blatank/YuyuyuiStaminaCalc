@@ -1,0 +1,22 @@
+{
+  "name": "yuyuyuistaminacalc",
+  "version": "1.0.0",
+  "description": "[gh-pages]:https://blatank.github.io/YuyuyuiStaminaCalc/index.html",
+  "main": "YuyuyuiStaminaCalc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blatank/YuyuyuiStaminaCalc.git"
+  },
+  "author": "blatank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blatank/YuyuyuiStaminaCalc/issues"
+  },
+  "homepage": "https://github.com/blatank/YuyuyuiStaminaCalc#readme",
+  "dependencies": {
+    "pug": "^2.0.3"
+  }
+}
