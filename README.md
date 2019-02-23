@@ -11,15 +11,20 @@
 
 ## 使い方
 大きく分けて2通り。
-### GitHub Pagesにアクセスしてそれを使う
+### Herokuに置いたのでこれにアクセスする
+- https://yuyuyuistaminacalc.herokuapp.com/
+
+#### (古)GitHub Pagesにアクセスしてそれを使う
 - [GitHub Pagesに置いてあるもの][gh-pages]
+- 注)Herokuに置くようにしたので、index.htmlを更新しなくなって古くなるかもしれません。
 
 ### cloneかForkして自分とこで使う
 - ローカルでindex.htmlを開くと**cookie保存できない**かも知れません。そのときはWebサーバに置くか、付属のapp.jsからWebサーバを起動してください。要:node.js
 
 #### node.jsからWebサーバを起動
-1. **node app.js**でWebサーバが起動します。
-2. ブラウザで**localhost:8000**にアクセスしてください。
+1. **npm install**で必要な物をインストールください
+2. **node app.js**でWebサーバが起動します。
+3. ブラウザで**localhost:8000**にアクセスしてください。
 
 ## 仕様
 - 現在のスタミナ最大値をエディットボックスに入力したら勝手にどれくらいで最大値に回復するか計算します。
