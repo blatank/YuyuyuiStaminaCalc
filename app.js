@@ -4,6 +4,7 @@
 
 'use strict';
 const http = require('http');
+const pug = require('pug');
 const server = http.createServer((req, res) => {
     // debug
 //    console.log(`${req.method} ${req.url}`);
@@ -23,13 +24,12 @@ const server = http.createServer((req, res) => {
         res.writeHead(200, {
             'Content-type': 'text/html; charset=utf-8'
         });
-        const fs = require('fs');
-        const rs = fs.createReadStream('./index.html');
-        rs.pipe(res);
+        res.write(pug.renderFile('./pages.pug'));
+        res.end();
     }
 })
 
-const port = 8000;
+const port = process.env.PORT || 8000;
 server.listen(port, () => {
     console.log('Listening on ' + port);
 });

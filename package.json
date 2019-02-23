@@ -2,7 +2,7 @@
   "name": "yuyuyuistaminacalc",
   "version": "1.0.0",
   "description": "[gh-pages]:https://blatank.github.io/YuyuyuiStaminaCalc/index.html",
-  "main": "YuyuyuiStaminaCalc.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
